@@ -1,9 +1,0 @@
-/**
- * 
- *  file: controler (gateway.js)
- *  
- * 
- *  
- */
-
-

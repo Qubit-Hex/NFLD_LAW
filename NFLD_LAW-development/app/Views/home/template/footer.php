@@ -11,12 +11,11 @@
                          We are a young company always looking for new and creative ideas to help you with our products
                          in your everyday work.
                      </p>
-                     <p style='font-weight: bold;'>&copy; Free Will Lawyer Inc.</p>
+                     <p style='font-weight: bold;'>&copy; NFLD Legal</p>
                  </div>
                  <div class="col-md-4 offset-md-1 footer-contact wow fadeInDown">
                      <h3>Contact</h3>
-                     <p><i class="fas fa-map-marker-alt"></i> Corner Brook,Newfoundland, Canada</p>
-                     <p><i class="fas fa-phone"></i> Phone: X-XXX-XXX-XXX</p>
+                     <p><i class="fas fa-map-marker-alt"></i> contact@nfldlegal.com</p>
                  </div>
                  <div class="col-md-4 footer-links wow fadeInUp">
                      <div class="row">
@@ -42,12 +41,7 @@
      <div class="footer-bottom">
          <div class="container">
              <div class="row">
-                 <div class="col footer-social">
-                     <a href=""><i class="bi bi-facebook social"></i></a>
-                     <a href=""><i class="bi bi-twitter social"></i></a>
-                     <a href=''><i class="bi bi-telephone-forward social"></i></a>
-					 <a href=''><i class="bi bi-whatsapp social"></i> </a>
-                 </div>
+                
              </div>
          </div>
      </div>

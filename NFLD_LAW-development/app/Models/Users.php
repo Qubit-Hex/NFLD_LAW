@@ -82,8 +82,8 @@ class Users extends Model
 
 	// remove the user for users to delete their account 
 	public function removeUser($id)
-	{
-
+	{	
+		return $this->delete();
 	}
 
 }

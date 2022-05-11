@@ -14,7 +14,6 @@ body {
 /* nav bar styling */
 
 .navbar {
-  padding: 20px;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 .navbar li {
@@ -168,19 +167,25 @@ background-color:#1a1a3fa4;
 transform: rotate(180deg);
 border-radius: 10px;
 clip-path: ellipse(300% 100% at -165% 0%);
-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.795) 0px 8px 16px -8px;
+box-shadow: rgba(50, 50, 93, 0.418) 0px 13px 27px -5px, rgba(0, 0, 0, 0.795) 0px 8px 16px -8px;
 }
 
 
 .hero:nth-child(even)
 {
-  background-color: #0f246b98;
+  background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 
 .hero:nth-child(odd){
-  background-color: #690d0d85;
+  background: #a73737;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 
 }
 
@@ -202,8 +207,10 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.795) 0px 
 }
 
 .footer {
-
-  background: #1b1b1b;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 100px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 25px !important;

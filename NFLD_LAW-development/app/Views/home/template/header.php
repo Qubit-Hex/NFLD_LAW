@@ -16,26 +16,23 @@
     <link rel='stylesheet' href='/css/index.css' />
     <script src='/js/router.js'></script>
 
-    <title>NFLDLAW - FreeWill Lawyer</title>
+    <title>NFLD LEGAL </title>
 </head>
 
 <body>
     <!-- header end -->
 
+    <nav class="navbar navbar-expand-lg navbar-light">
 
+        <ul class='navbar-nav'>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"
-        style=' width: 100% !important; background-color: transparent;'>
-
-                <ul class='navbar-nav'>
-         
          <li class='nav-item'> <button class="navbar-toggler" id='btn-menu-collapse' type="button" data-toggle="collapse" data-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-  
+
           </button></li></ul>
-        <a class='nav-link' href=''
-            style='text-decoration: none; color: black; font-weight:200; font-size: 20px;'>NFLDLAW<img class='img-fluid'
+        <a class='nav-link' href='' style='text-decoration: none; color: black; font-weight:200; font-size: 20px;'>NFLD LEGAL
+        <img class='img-fluid'
                 src='/img/Freewill-logos/Freewill-logos_black.png' style='max-width: 200px; max-height: 200px' /></a>
 
         <ul class="navbar-nav" id='nav-section-topMenu'>
