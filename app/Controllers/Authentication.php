@@ -32,7 +32,10 @@ class Authentication extends BaseController
 	{
 		// make sure the request is over https
 		if (!$this->request->isSecure()) {
-			die('You must use HTTPS');
+			return json_encode([
+				'status' => 'error',
+				'message' => 'Please use https'
+			]);
 		} 
 
 
@@ -65,7 +68,10 @@ class Authentication extends BaseController
 	{	
 		// make sure the request is used over https
 		if (!$this->request->isSecure()) {
-			die('You must use HTTPS');
+			return json_encode([
+				'status' => 'error',
+				'message' => 'Please use https'
+			]);
 		}
 
 		// make sure the request is a post request
